@@ -1,6 +1,7 @@
 /* --- Variables y Estilos Generales --- */
 :root {
-  --bg-color: #f0f2f5;
+  --bg-color: #F7F5F3;
+
   --primary-white: #ffffff;
   --panel-header-bg: #f8f9fa;
   --contact-item-hover: #f0f2f5;
@@ -220,6 +221,14 @@ body {
 
 .message-input-area button:hover {
   color: #007bff;
+
+}
+
+.message-text img {
+
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* --- Requisito: Diseño Responsivo --- */
