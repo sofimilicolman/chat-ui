@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="chat-container">
+    <aside class="contacts-panel">
+      <header class="panel-header">
+        <div class="search-container">
+          <input type="text" placeholder="Search...">
+        </div>
+      </header>
+
+      <nav class="contacts-list">
+        <ul>
+          <li class="contact-item">
+            <img src="assets/avatar.png" alt="Avatar de vecina" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">Vecina</p>
+              <p class="contact-status-extra">en linea</p>
+            </div>
+          </li>
+          <li class="contact-item active">
+            <img src="assets/avatar.png" alt="Avatar de Feli" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">feli</p>
+              <p class="contact-status online">en linea</p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <img src="assets/avatar.png" alt="Avatar de Rufina" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">rufina</p>
+              <p class="contact-status online">untima vez ayer </p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <img src="assets/avatar.png" alt="Avatar de Lolita" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">Lolita</p>
+              <p class="contact-status-extra"> ult. vez 6 de agosto</p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <img src="assets/avatar.png" alt="Avatar de Arturo" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">Arturo</p>
+              <p class="contact-status online">en linea</p>
+            </div>
+          </li>
+          <li class="contact-item">
+            <img src="assets/avatar.png" alt="Avatar de Charly" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">Charly</p>
+              <p class="contact-status-extra offline">ult. vez Oct 28</p>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="chat-panel">
+      <header class="chat-header">
+        <div class="contact-details">
+          <h1 class="contact-name">Feli</h1>
+          <p class="contact-status">ultima vez: hace 2 horas</p>
+        </div>
+        <div class="chat-actions">
+          <span>🇦</span>
+          <span>📷</span>
+          <span>⚙️</span>
+        </div>
+      </header>
+
+      <section class="messages-area">
+        <div class="message sent">
+          <p class="message-text">Hola Feli, how are you? How is the project coming along?</p>
+          <span class="message-time">10:10 AM, Today</span>
+        </div>
+        <div class="message received">
+          <p class="message-text">Are we meeting today?</p>
+          <span class="message-time">10:12 AM, Today</span>
+        </div>
+        <div class="message received">
+          <p class="message-text">Project has been already finished and I have results to show you.</p>
+          <span class="message-time">10:15 AM, Today</span>
+        </div>
+      </section>
+
+      <footer class="message-input-area">
+        <input type="text" placeholder="Enter text here...">
+        <button aria-label="Enviar mensaje">➤</button>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>
