@@ -1,65 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Chat-ui</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="chat-container">
+
     <aside class="contacts-panel">
       <header class="panel-header">
         <div class="search-container">
-          <input type="text" placeholder="Search...">
+          <input type="text" placeholder="Buscar...">
         </div>
       </header>
 
-      <nav class="contacts-list">
+      <nav class="contact-list">
         <ul>
           <li class="contact-item">
-            <img src="assets/avatar.png" alt="Avatar de vecina" class="avatar">
+            <img src="assets/descarga.jpeg" alt="Avatar de Rony" class="avatar">
             <div class="contact-info">
-              <p class="contact-name">Vecina</p>
-              <p class="contact-status-extra">en linea</p>
+              <p class="contact-name">Rony vecino</p>
+              <p class="contact-status online">en línea</p>
             </div>
           </li>
+
           <li class="contact-item active">
-            <img src="assets/avatar.png" alt="Avatar de Feli" class="avatar">
+            <img src="assets/descarga.jpeg" alt="Avatar de Feli" class="avatar">
             <div class="contact-info">
               <p class="contact-name">feli</p>
-              <p class="contact-status online">en linea</p>
+              <p class="contact-status online">en línea</p>
             </div>
           </li>
+
           <li class="contact-item">
-            <img src=" C:\Users\HP AIO\Downloads\WhatsApp Image 2025-08-12 at 15.13.30.jpeg alt=" Avatar de Rufina"
-              class="avatar">
+            <img src="assets/descarga.jpeg" alt="Avatar de Rufina" class="avatar">
             <div class="contact-info">
               <p class="contact-name">rufina</p>
-              <p class="contact-status online">untima vez ayer </p>
+              <p class="contact-status offline">ult. vez ayer</p>
             </div>
           </li>
+
           <li class="contact-item">
-            <img src="assets/avatar.png" alt="Avatar de Lolita" class="avatar">
+            <img src="assets/descarga.jpeg" alt="Avatar de Lolita" class="avatar">
             <div class="contact-info">
               <p class="contact-name">Lolita</p>
-              <p class="contact-status-extra"> ult. vez 6 de agosto</p>
+              <p class="contact-status offline">ult. vez 6 de agosto</p>
             </div>
           </li>
+
           <li class="contact-item">
-            <img src="assets/avatar.png" alt="Avatar de Arturo" class="avatar">
+            <img src="assets/descarga.jpeg" alt="Avatar de Arturo" class="avatar">
             <div class="contact-info">
               <p class="contact-name">Arturo</p>
-              <p class="contact-status online">en linea</p>
+              <p class="contact-status online">en línea</p>
             </div>
           </li>
+
           <li class="contact-item">
-            <img src="assets/avatar.png" alt="Avatar de Charly" class="avatar">
+            <img src="assets/descarga.jpeg" alt="Avatar de Charly" class="avatar">
             <div class="contact-info">
               <p class="contact-name">Charly</p>
-              <p class="contact-status-extra offline">ult. vez Oct 28</p>
+              <p class="contact-status offline">ult. vez Oct 28</p>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <img src="assets/descarga.jpeg" alt="Avatar de kento" class="avatar">
+            <div class="contact-info">
+              <p class="contact-name">kento</p>
+              <p class="contact-status offline">ult. vez junio 5</p>
             </div>
           </li>
         </ul>
@@ -69,46 +82,46 @@
     <main class="chat-panel">
       <header class="chat-header">
         <div class="contact-details">
-          <h1 class="contact-name">Lolita Colman</h1>
-          <p class="contact-status">ultima vez: hace 2 horas</p>
+          <img src="assets/descarga.jpeg" alt="Avatar de Lolita" class="avatar">
+          <div>
+            <h1 class="contact-name">Lolita Colman</h1>
+            <p class="contact-status offline">última vez: hace 2 horas</p>
+          </div>
         </div>
         <div class="chat-actions">
-          <span>🇦</span>
-          <span>📷</span>
           <span>⚙️</span>
         </div>
       </header>
 
       <section class="messages-area">
         <div class="message sent">
-          <p class="message-text">Hola Lolita, Como estas yendo con el proyecto? Pudiste hacer los cambios que te
-            sugeri?
-          </p>
-          <span class="message-time">10:10 AM, Today</span>
+          <p class="message-text">Hola Lolita, ¿Cómo estas yendo con el proyecto? ¿Pudiste hacer los cambios que te
+            sugerí?</p>
+          <span class="message-time">10:10 AM, hoy</span>
         </div>
+
         <div class="message received">
           <p class="message-text">Hola Feli, todo bien y vos?</p>
-          <span class="message-time">10:12 AM, Today</span>
+          <span class="message-time">10:12 AM, hoy</span>
         </div>
+
         <div class="message received">
-          <p class="message-text">El proyecto lo termine hoy,
-            estoy ultimando detalles:
-          </p>
-          <span class="message-time">10:15 AM, Today</span>
-          <div class="message-received">
-            <div class="message-text">
-              <img src="WhatsApp Image 2025-08-12 at 15.12.32.jpeg" alt="imageb de avatar">
-            </div>
-            <span class="message-time">10:20 AM, Today</span>
-          </div>
+          <p class="message-text">El proyecto lo termine hoy😁, estoy ultimando detalles.</p>
+          <span class="message-time">10:15 AM, hoy</span>
         </div>
+
+        <div class="message received">
+          <img src="assets/WhatsApp Image 2025-08-12 at 15.12.32.jpeg" alt="imagen del proyecto" class="message-image">
+        </div>
+
       </section>
 
       <footer class="message-input-area">
-        <input type="text" placeholder="Enter text here...">
+        <input type="text" placeholder="Enviar un mensaje...">
         <button aria-label="Enviar mensaje">➤</button>
       </footer>
     </main>
+
   </div>
 </body>
 
